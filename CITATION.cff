@@ -20,7 +20,7 @@ title: "Replication package for 'RETORCH*: A Cost and Resource aware model for E
 version: 1.0
 doi: "TO-DO"
 date-released: 2023-08-11
-url: "https://github.com/github-linguist/linguist"
+url: "https://github.com/giis-uniovi/retorchx-rp"
 preferred-citation:
   type: article
   authors:

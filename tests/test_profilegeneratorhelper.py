@@ -14,15 +14,15 @@ class ResourceProfileGenerators(unittest.TestCase):
 
     @staticmethod
     def test_generaResourceProfile():
-        path_tjob_dataset = "tests/resources/inputs/profilegenerator/3parallel.csv"
-        path_resource_instances = "tests/resources/inputs/profilegenerator/resourceinstances.json"
+        path_tjob_dataset = "tests/resources/test-inputs/profilegenerator/3parallel.csv"
+        path_resource_instances = "tests/resources/test-inputs/profilegenerator/resourceinstances.json"
         dataframe_output = generate_dataframe_with_capacities_usage(path_tjob_dataset,
                                                                     path_resource_instances,
                                                                     "virtualmachineexample", time_period=3600,
                                                                     n_test_suite_executions=3)
-        # dataframe_output.to_csv("tests/resources/outputs/profilegenerator/profile3paralleloutputfile.csv", index=False,sep=";")
+        # dataframe_output.to_csv("tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile.csv", index=False,sep=";")
         expected_output_dataframe = pd.read_csv(
-            "tests/resources/outputs/profilegenerator/profile3paralleloutputfile.csv",
+            "tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile.csv",
             header=0, sep=";")
         expected_output_dataframe = expected_output_dataframe.sort_values(by=["TJob", "Capacity", "Lifecycle"],
                                                                           ascending=[True, True, True])
@@ -36,7 +36,7 @@ class ResourceProfileGenerators(unittest.TestCase):
 @staticmethod
 def test_generateaggregation_container():
     dataframe_output = pd.read_csv(
-        "tests/resources/outputs/profilegenerator/profile3paralleloutputfile.csv",
+        "tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile.csv",
         header=0, sep=";")
     dataframe_output = generate_dataframe_aggregation_cloud_object(dataframe_output=dataframe_output,
                                                                    cloud_object="Container",
@@ -44,7 +44,7 @@ def test_generateaggregation_container():
 
     # dataframe_output.to_csv("tests/resources/outputs/profilegenerator/profile3paralleloutputfile_container_agg.csv", index=False,sep=";")
     expected_output_dataframe = pd.read_csv(
-        "tests/resources/outputs/profilegenerator/profile3paralleloutputfile_container_agg.csv",
+        "tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile_container_agg.csv",
         header=0, sep=";")
 
     # assert expected_output_dataframe.to_csv(index=False, sep=";") == dataframe_output.to_csv(index=False, sep=";")
@@ -55,7 +55,7 @@ def test_generateaggregation_container():
 @staticmethod
 def test_generateaggregation_vm():
     dataframe_output = pd.read_csv(
-        "tests/resources/outputs/profilegenerator/profile3paralleloutputfile.csv",
+        "tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile.csv",
         header=0, sep=";")
 
     cap_vm_memory = Capacity(name=capacitytypes.memory_name, quantity=32)
@@ -67,10 +67,10 @@ def test_generateaggregation_vm():
                                                                    cloud_object="VM",
                                                                    capacities_contracted=capacities_vm)
 
-    dataframe_output.to_csv("tests/resources/outputs/profilegenerator/profile3paralleloutputfile_vm_agg.csv",
+    dataframe_output.to_csv("tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile_vm_agg.csv",
                             index=False, sep=";")
     expected_output_dataframe = pd.read_csv(
-        "tests/resources/outputs/profilegenerator/profile3paralleloutputfile_vm_agg.csv",
+        "tests/resources/test-outputs/profilegenerator/profile3paralleloutputfile_vm_agg.csv",
         header=0, sep=";")
 
     # assert expected_output_dataframe.to_csv(index=False, sep=";") == dataframe_output.to_csv(index=False, sep=";")

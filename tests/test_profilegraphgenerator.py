@@ -15,7 +15,7 @@ class ResourceProfileGenerators(unittest.TestCase):
 
     @staticmethod
     def test_generaResourceProfile():
-        path_input="tests/resources/inputs/profilegraphgenerator/3parallel_avg_usageprofile_Container.csv"
+        path_input="tests/resources/test-inputs/profilegraphgenerator/3parallel_avg_usageprofile_Container.csv"
         plot_usage_profile(path_input,capacitytypes.memory_name)
 
 

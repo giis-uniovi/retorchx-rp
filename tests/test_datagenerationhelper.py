@@ -14,21 +14,21 @@ class DataframeGenerators(unittest.TestCase):
     @staticmethod
     def test_generateDataFromCSV():
         dataframe_output = generate_data_frame_with_relative_times(
-            "tests/resources/inputs/datagenerator/sampleoutputJenkins.csv")
+            "tests/resources/test-inputs/datagenerator/sampleoutputJenkins.csv")
 
-        expected_dataframe = pd.read_csv("tests/resources/outputs/datagenerator/outputgenerateDataFromCSV.csv",
+        expected_dataframe = pd.read_csv("tests/resources/test-outputs/datagenerator/outputgenerateDataFromCSV.csv",
                                          header=0)
 
         pandas._testing.assert_frame_equal(expected_dataframe.astype(str), dataframe_output.astype(str))
 
     @staticmethod
     def test_generateAvgDataframe():
-        path_datasets = 'tests/resources/inputs/datagenerator'
+        path_datasets = 'tests/resources/test-inputs/datagenerator'
 
         dataframe = generatedatasetswithavgtimes(path_datasets)
         # dataframe.to_csv("./outputavgdataframe.csv",sep=";",index=False)
 
-        expected_output_dataframe = pd.read_csv('tests/resources/outputs/datagenerator/outputavgdataframe.csv',
+        expected_output_dataframe = pd.read_csv('tests/resources/test-outputs/datagenerator/outputavgdataframe.csv',
                                                 header=0,
                                                 sep=";")
         expected_output_dataframe = expected_output_dataframe.reset_index(drop=True)
