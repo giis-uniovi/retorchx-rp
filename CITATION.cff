@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you cite this replication package, please cite it as below."
+authors:
+- family-names: "Augusto"
+  given-names: "Cristian"
+  orcid: "https://orcid.org/0000-0001-6140-1375"
+- family-names: "Morán"
+  given-names: "Jesús"
+  orcid: "https://orcid.org/0000-0002-7544-3901"
+- family-names: "Antonia"
+  given-names: "Bertolino"
+  orcid: "https://orcid.org/0000-0001-8749-1356"
+- family-names: "Claudio"
+  given-names: "De la Riva"
+  orcid: "https://orcid.org/0000-0001-5592-9683"
+- family-names: "Javier"
+  given-names: "Tuya"
+  orcid: "https://orcid.org/0000-0002-1091-934X"
+title: "Replication package for 'RETORCH*: A Cost and Resource aware model for E2E Testing in the Cloud'"
+version: 1.0
+doi: "TO-DO"
+date-released: 2023-08-11
+url: "https://github.com/github-linguist/linguist"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Augusto"
+    given-names: "Cristian"
+    orcid: "https://orcid.org/0000-0001-6140-1375"
+  - family-names: "Morán"
+    given-names: "Jesús"
+    orcid: "https://orcid.org/0000-0002-7544-3901"
+  - family-names: "Antonia"
+    given-names: "Bertolino"
+    orcid: "https://orcid.org/0000-0001-8749-1356"
+  - family-names: "Claudio"
+    given-names: "De la Riva"
+    orcid: "https://orcid.org/0000-0001-5592-9683"
+  - family-names: "Javier"
+    given-names: "Tuya"
+    orcid: "https://orcid.org/0000-0002-1091-934X"
+  doi: "10.0000/00000"
+  journal: "Journal Title"
+  month: 9
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "RETORCH*: A Cost and Resource aware model for E2E Testing in the Cloud"
+  issue: 1
+  volume: 1
+  year: 2023
