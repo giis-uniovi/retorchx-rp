@@ -1,0 +1,13 @@
+tjobname,stage,COI-setup-avg,tjob-setup-avg,tjob-testexec-avg,tjob-teardown-avg,coi-teardown-avg
+tjobc,0,5,65,107,3,0
+tjobd,0,5,65,119,2,0
+tjobe,0,5,64,108,3,0
+tjobf,0,5,67,140,2,0
+tjobg,0,5,63,134,3,0
+tjobh,1,5,36,80,4,0
+tjobi,1,5,52,96,3,0
+tjobj,1,5,44,288,2,0
+tjobk,1,5,48,172,2,0
+tjobl,1,5,53,83,2,0
+tjobm,2,5,27,57,3,0
+tjobn,2,5,28,60,3,0
