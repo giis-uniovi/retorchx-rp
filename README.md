@@ -52,7 +52,8 @@ To the best of our knowledge, FullTeaching has two test suites available in diff
 repositories [[1]](https://github.com/elastest/full-teaching) [[2]](https://github.com/codeurjc-students/2019-FullTeaching/tree/Angular-Refactor).
 The test suite used to generate the raw datasets provided in this replication package is a compilation of the available
 test, cases in these repositories. The test suite, along with the necessary scripts and JenkinsFile required to run the
-Execution Plan is made available in a [GitHub repository](https://github.com/giis-uniovi/retorch-st-fullteaching).
+Execution Plan is made available as the version 1.1.0 in the [retorch-st-fullteaching](https://github.com/giis-uniovi/retorch-st-fullteaching)
+GitHub repository.
 
 ## Treatment Replication Overview
 
