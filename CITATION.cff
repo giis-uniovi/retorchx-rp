@@ -1,50 +1,49 @@
 cff-version: 1.2.0
 message: "If you cite this replication package, please cite it as below."
 authors:
-- family-names: "Augusto"
-  given-names: "Cristian"
-  orcid: "https://orcid.org/0000-0001-6140-1375"
-- family-names: "Morán"
-  given-names: "Jesús"
-  orcid: "https://orcid.org/0000-0002-7544-3901"
-- family-names: "Bertolino"
-  given-names: "Antonia"
-  orcid: "https://orcid.org/0000-0001-8749-1356"
-- family-names: "De la Riva"
-  given-names: "Claudio"
-  orcid: "https://orcid.org/0000-0001-5592-9683"
-- family-names: "Tuya"
-  given-names: "Javier"
-  orcid: "https://orcid.org/0000-0002-1091-934X"
+  - family-names: "Augusto"
+    given-names: "Cristian"
+    orcid: "https://orcid.org/0000-0001-6140-1375"
+  - family-names: "Morán"
+    given-names: "Jesús"
+    orcid: "https://orcid.org/0000-0002-7544-3901"
+  - family-names: "Bertolino"
+    given-names: "Antonia"
+    orcid: "https://orcid.org/0000-0001-8749-1356"
+  - family-names: "De la Riva"
+    given-names: "Claudio"
+    orcid: "https://orcid.org/0000-0001-5592-9683"
+  - family-names: "Tuya"
+    given-names: "Javier"
+    orcid: "https://orcid.org/0000-0002-1091-934X"
 title: "Replication package for 'RETORCH*: A Cost and Resource aware Model for E2E Testing in the Cloud'"
 version: 1.0
-doi: "TO-DO"
 date-released: 2023-08-11
 url: "https://github.com/giis-uniovi/retorchx-rp"
 preferred-citation:
   type: article
   authors:
-- family-names: "Augusto"
-  given-names: "Cristian"
-  orcid: "https://orcid.org/0000-0001-6140-1375"
-- family-names: "Morán"
-  given-names: "Jesús"
-  orcid: "https://orcid.org/0000-0002-7544-3901"
-- family-names: "Bertolino"
-  given-names: "Antonia"
-  orcid: "https://orcid.org/0000-0001-8749-1356"
-- family-names: "De la Riva"
-  given-names: "Claudio"
-  orcid: "https://orcid.org/0000-0001-5592-9683"
-- family-names: "Tuya"
-  given-names: "Javier"
-  orcid: "https://orcid.org/0000-0002-1091-934X"
-  doi: "10.0000/00000" #TO-DO
-  journal: "Journal Title" #TO-DO
-  month: 9 #TO-DO
-  start: 1 # TO-DO First page number
-  end: 10 # TO-DO Last page number
+    - family-names: "Augusto"
+      given-names: "Cristian"
+      orcid: "https://orcid.org/0000-0001-6140-1375"
+    - family-names: "Morán"
+      given-names: "Jesús"
+      orcid: "https://orcid.org/0000-0002-7544-3901"
+    - family-names: "Bertolino"
+      given-names: "Antonia"
+      orcid: "https://orcid.org/0000-0001-8749-1356"
+    - family-names: "De la Riva"
+      given-names: "Claudio"
+      orcid: "https://orcid.org/0000-0001-5592-9683"
+    - family-names: "Tuya"
+      given-names: "Javier"
+      orcid: "https://orcid.org/0000-0002-1091-934X"
+  doi: "10.1016/j.jss.2024.112237"
+  journal: "Journal of Systems and Software"
   title: "RETORCH*: A Cost and Resource aware Model for E2E Testing in the Cloud"
-  issue: 1 #TO-DO
-  volume: 1 #TO-DO
-  year: 2023 #TO-DO
+  volume: 1 # TO-DO
+  issue: 1 # TO-DO
+  start: 1 # TO-DO
+  end: 10 # TO-DO
+  month: 9 # TO-DO
+  year: 2024
