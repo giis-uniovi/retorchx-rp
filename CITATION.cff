@@ -41,9 +41,9 @@ preferred-citation:
   doi: "10.1016/j.jss.2024.112237"
   journal: "Journal of Systems and Software"
   title: "RETORCH*: A Cost and Resource aware Model for E2E Testing in the Cloud"
-  volume: 1 # TO-DO
-  issue: 1 # TO-DO
-  start: 1 # TO-DO
-  end: 10 # TO-DO
-  month: 9 # TO-DO
-  year: 2024
+  url: "https://www.sciencedirect.com/science/article/pii/S0164121224002814"
+  volume: 221
+  issn: "0164-1212"
+  pages: 112237
+  month: 3
+  year: 2025
