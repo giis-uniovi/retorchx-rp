@@ -149,8 +149,8 @@ RETORCH*: A Cost and Resource aware Model for E2E Testing in the Cloud:
 
 - Cristian Augusto, Jesús Morán, Antonia Bertolino, Claudio de la Riva, and Javier Tuya,
   “RETORCH*: A Cost and Resource aware Model for E2E Testing in the Cloud”,
-  *Journal of Systems and Software*, vol. 221 , pages. 112237, 2025 .
-  https://doi.org/10.1016/j.jss.2024.112237 - [Full Paper available](https://www.sciencedirect.com/science/article/pii/S0164121224002814?via%3Dihub) - [Authors version](TO-DO) -
+  *Journal of Systems and Software*, vol. 221 , pages. 112237, 2025.
+  https://doi.org/10.1016/j.jss.2024.112237 - [Full Paper available](https://www.sciencedirect.com/science/article/pii/S0164121224002814?via%3Dihub) - [Authors version](https://hdl.handle.net/10651/75794) -
   [Download citation](https://www.sciencedirect.com/science/article/pii/S0164121224002814?via%3Dihub#:~:text=Export%20citation%20to%20text)
 
 RETORCH E2E Test Orchestration framework:
